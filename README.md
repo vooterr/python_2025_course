@@ -1,4 +1,4 @@
-Example of add and use pre-commit 
+Example of add and use pre-commit
 
 ```
   541  poetry add  pre-commit  // install pre-commit package
@@ -6,8 +6,8 @@ Example of add and use pre-commit
 
   544  poetry run pre-commit run --all-files // checking all files in repo
 
-  
-  545  poetry run pre-commit clean 
+
+  545  poetry run pre-commit clean
   546  poetry run pre-commit gc
 
   547  poetry run pre-commit install
