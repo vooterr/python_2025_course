@@ -1,0 +1,25 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "python-2025-course"
+version = "0.1.0"
+description = "Курс по Python 2025"
+authors = ["Ваше имя <ваш@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.28.0"
+matplotlib = "^3.5.0"
+numpy = "2.3.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.0.0"
+black = "^22.0.0"
+flake8 = "^5.0.0"
+isort = "^5.0.0"
+
+
+[tool.poetry.extras]
+dev-tools = ["pytest", "black", "flake8", "isort"]
